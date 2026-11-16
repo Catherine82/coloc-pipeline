@@ -1,0 +1,19 @@
+# Only the colocalization code is tracked in this repository.
+# Everything else in this folder (data, results, literature, slides, notes) is ignored on purpose.
+# To track another file, add an explicit line for it below; never use `git add -f`.
+/*
+!/.gitignore
+!/README.txt
+!/code/
+/code/*
+!/code/coloc_lib.R
+!/code/study_config.example.R
+!/code/run_coloc.R
+!/code/run_locus.R
+!/code/run_all_loci.R
+!/code/fetch_gtex_v8_regions.R
+!/code/summarise_coloc.R
+!/code/evidence_add_coloc.R
+!/code/tests/
+/code/tests/*
+!/code/tests/test_coloc_lib.R
